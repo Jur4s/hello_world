@@ -13,7 +13,7 @@ public func routes(_ router: Router) throws {
     }
     
     router.get("hello_manon") { req in
-        return "Hello, Manon !\n je voulais te montrer un truc trop cool, mais ca marche pas"
+        return "Hello, Manon !\n je voulais te montrer un truc trop cool, mais ca marchait pas. \n devine qyou"
     }
 
     // Example of configuring a controller
